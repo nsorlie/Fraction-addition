@@ -1,4 +1,21 @@
-public class Fractions {
+java.util.scanner
+public class input{
+  public static void main(String[] args){
+  Scanner input = new Scanner(system.in) {
+  System.out.println("Enter numerator no 1:");
+  public int numerOne = input.nextInt();
+  System.out.println("Enter denominator no 1:");
+  public int denomOne = input.nextInt();
+  System.out.println("Enter numerator no 2:");
+  public int numerTwo = input.nextInt();
+  System.out.println("Enter denominator no 2:");
+  public int denomTwo = input.nextInt();
+  
+  input.close
+  }
+  }
+}
+public class Fractions extends input{
 
   double denominatorOne;
   double denominatorTwo;
@@ -11,7 +28,10 @@ public class Fractions {
 
 
     Public static void main(String[] args){
-    //insert user data sets here
+    denominatorOne = denomOne;
+    numeratorOne = numerOne;
+    denominatorTwo = denomTwo;
+    numeratorTwo = numerTwo;
     
     finalDenominator = denominatorOne + denominatorTwo;
     
