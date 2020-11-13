@@ -1,0 +1,24 @@
+public class Fractions {
+
+  double denominatorOne;
+  double denominatorTwo;
+  double numeratorOne;
+  double numeratorTwo;
+  double newNumeratorOne;
+  double newNumeratorTwo;
+  double finalNumerator;
+  double finalDenominator;
+
+
+    Public static void main(String[] args){
+    //insert user data sets here
+    
+    finalDenominator = denominatorOne + denominatorTwo;
+    
+    newNumeratorOne = numeratorOne * denominatorTwo;
+    newNumeratorTwo = numeratorTwo * denominatorOne;
+    finalNumerator = newNumeratorOne + newNumeratorTwo;
+      Systeme.out.println("finalNumerator" + "/" + "finalDenominator");
+    
+    }
+}
