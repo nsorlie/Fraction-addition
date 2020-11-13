@@ -1,0 +1,13 @@
+java.util.scanner
+class input{
+  public static void main(String[] args){
+  Scanner input = new Scanner(system.in) {
+  System.out.println("Enter fraction no 1:");
+  int numberOne = input.nextInt();
+  System.out.println("Enter fraction no 2:");
+  int numberTwo = input.nextInt();
+  
+  input.close
+  }
+  }
+}
