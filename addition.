@@ -1,44 +1,28 @@
-java.util.scanner
-public class input{
-  public static void main(String[] args){
-  Scanner input = new Scanner(system.in) {
-  System.out.println("Enter numerator no 1:");
-  public int numerOne = input.nextInt();
-  System.out.println("Enter denominator no 1:");
-  public int denomOne = input.nextInt();
-  System.out.println("Enter numerator no 2:");
-  public int numerTwo = input.nextInt();
-  System.out.println("Enter denominator no 2:");
-  public int denomTwo = input.nextInt();
-  
-  input.close
-  }
-  }
-}
-public class Fractions extends input{
+import java.util.Scanner;
+class information{
+    Public static void main(String[] args){
 
-  double denominatorOne;
-  double denominatorTwo;
-  double numeratorOne;
-  double numeratorTwo;
   double newNumeratorOne;
   double newNumeratorTwo;
   double finalNumerator;
   double finalDenominator;
 
-
-    Public static void main(String[] args){
-    denominatorOne = denomOne;
-    numeratorOne = numerOne;
-    denominatorTwo = denomTwo;
-    numeratorTwo = numerTwo;
-    
-    finalDenominator = denominatorOne * denominatorTwo;
-    
-    newNumeratorOne = numeratorOne * denominatorTwo;
-    newNumeratorTwo = numeratorTwo * denominatorOne;
-    finalNumerator = newNumeratorOne + newNumeratorTwo;
+      Scanner input = new Scanner(System.in) {
+      System.out.println("Enter numerator no 1:");
+      public int numerOne = input.nextInt();
+      System.out.println("Enter denominator no 1:");
+      public int denomOne = input.nextInt();
+      System.out.println("Enter numerator no 2:");
+      public int numerTwo = input.nextInt();
+      System.out.println("Enter denominator no 2:");
+      public int denomTwo = input.nextInt();
+     
+      finalDenominator = denomOne * denomTwo;
+      newNumeratorOne = numerOne * denomTwo;
+      newNumeratorTwo = numerTwo * denomOne;
+      finalNumerator = newNumeratorOne + newNumeratorTwo;
       Systeme.out.println("finalNumerator" + "/" + "finalDenominator");
-    
+    input.close();
     }
-}
+  }
+  }
