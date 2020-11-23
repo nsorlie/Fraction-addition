@@ -33,7 +33,7 @@ public class Fractions extends input{
     denominatorTwo = denomTwo;
     numeratorTwo = numerTwo;
     
-    finalDenominator = denominatorOne + denominatorTwo;
+    finalDenominator = denominatorOne * denominatorTwo;
     
     newNumeratorOne = numeratorOne * denominatorTwo;
     newNumeratorTwo = numeratorTwo * denominatorOne;
