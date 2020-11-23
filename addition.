@@ -6,6 +6,7 @@ class information{
   double newNumeratorTwo;
   double finalNumerator;
   double finalDenominator;
+//Declares variables for use later in code
 
       Scanner input = new Scanner(System.in) {
       System.out.println("Enter numerator no 1:");
@@ -16,13 +17,19 @@ class information{
       public int numerTwo = input.nextInt();
       System.out.println("Enter denominator no 2:");
       public int denomTwo = input.nextInt();
+     //Gets the user input for fractions
      
       finalDenominator = denomOne * denomTwo;
       newNumeratorOne = numerOne * denomTwo;
       newNumeratorTwo = numerTwo * denomOne;
       finalNumerator = newNumeratorOne + newNumeratorTwo;
+      //Math part.
+      
       Systeme.out.println("finalNumerator" + "/" + "finalDenominator");
+      //prints out result
+      
     input.close();
+    //closes scanner
     }
   }
   }
