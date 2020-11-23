@@ -9,6 +9,7 @@ class information{
 //Declares variables for use later in code
 
       Scanner input = new Scanner(System.in) {
+      //Starts scanner
       System.out.println("Enter numerator no 1:");
       public int numerOne = input.nextInt();
       System.out.println("Enter denominator no 1:");
